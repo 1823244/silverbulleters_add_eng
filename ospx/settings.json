@@ -1,0 +1,25 @@
+{
+    "root": "epf",
+    "include": [
+        "features",
+        "lib",
+        "plugins",
+        "tests",
+        "tools/epf",
+        "vendor"
+    ],
+    "opm_build": [
+        "features/libraries",
+        "lib/featurereader",
+        // "lib/TemplateEpfUF",
+        // "lib/TemplateEpf",
+        "lib/video",
+        "plugins",
+        "tests/smoke",
+        "tools/epf",
+        "vendor"
+    ],
+    "opm_build_exclude": [
+        "features/libraries/VB"
+    ]
+}
